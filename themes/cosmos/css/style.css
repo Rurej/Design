@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: rgba(219, 219, 207, 0.968);
 }
 
 
@@ -36,6 +36,7 @@ body {
 
 .header, .footer {
     flex: 0 0 auto;
+    padding:20px;
 }
 
 /* Header */
@@ -75,6 +76,8 @@ body {
 
 .footer {
     display: flex;
+    flex-direction:column;
+    align-items: center;
     justify-content: space-between;
     border-top: 1px solid #222;
 }
@@ -92,7 +95,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: #333333;
 }
 
 p {
@@ -100,6 +103,7 @@ p {
     overflow-wrap: break-word;
     word-wrap: break-word;
     margin-bottom: 8px;
+    color:#333333;
 }
 
 
@@ -109,22 +113,35 @@ td, th, li, dd {
     word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+li a:hover{
+    color: rgb(52, 115, 136);
+
+}
+
+h1{
+    color:#222;
+    margin-bottom: 0.6em;
+    font-weight: bold; 
+}
+
+
+
+
+h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    font-size: 20px;
+    color:#333333;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius:80px;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 8%; 
     object-fit: cover;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-img:hover {
-    transform: scale(1.05);  /* Gör bilden 10% större när användaren hovrar */
-}
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */
@@ -165,3 +182,4 @@ blockquote {
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
 }
+
