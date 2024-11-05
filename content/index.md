@@ -6,10 +6,7 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
-
-
-Lite om mig
+*_Lite om mig_*
 ------------------------------
 
 Mitt namn är Rubi Jansson. Uppväxt på norra sidan av stockholm.
