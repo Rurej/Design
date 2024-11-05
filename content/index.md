@@ -8,4 +8,17 @@ Home page
 
 The source for this page is in `content/index.md`.
 
-This is a sample home page written in markdown with some frontmatter defined.
+
+Lite om mig
+------------------------------
+
+Mitt namn är Rubi Jansson. Uppväxt på norra sidan av stockholm.
+
+Har i 15 år spelat fotboll och lyckats göra det till en karriär om än en kort stund. Fick skador och insåg att jag behöver nörda ner mig i något 
+annat.
+
+Programmering har alltid intresserat mig pga komplexiteten och påverkan den kommer ha på vår utveckling framåt. Så att börja studera detta var något jag verkligen såg och ser fram emot!
+
+Bild på en Lama, ett av mina favoritdjur, och så lite historia.
+
+![bild på lama](https://cdn.pixabay.com/photo/2017/09/22/09/42/peru-2774925_640.jpg " bild på lama")
