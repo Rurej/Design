@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  background-color: rgba(216, 216, 201, 0.897);
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 59rem;
+  margin: 0 auto;
+  align-items: center;
+  color: #222;
+  border-bottom: 2px solid rgba(253, 253, 239, 0.897);
+
+  img {
+            
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 2px solid rgba(253, 253, 239, 0.897);
+
+}
+
+title {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 2%;
+  color: #222;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+p{
+    color: #222;
+    margin-bottom: 1.4;
+    font-size: 1,25em;
+
+    a {
+        text-decoration: none; /* Removes underline */
+        color: blue; /* Default color */
+        font-weight: bold; /* Makes the text bold */
+    }
+
+    a:hover{
+
+        color: #222;
+        text-decoration: underline;
+    }
+}
+
+h1 {
+    color: #222;
+    font-size: 2.8em;
+    margin-bottom: 3.5rem; /* baseline * 2, för att skapa mer utrymme */
+    
+    a {
+        text-decoration: none; /* Removes underline */
+        color: blue; /* Default color */
+        font-weight: bold; /* Makes the text bold */
+    }
+
+    a:hover{
+
+        color: #222;
+        text-decoration: underline;
+    }
+}
