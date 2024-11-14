@@ -6119,6 +6119,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -6143,14 +6147,19 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 390px) {
+  .main {
+    width: 90%;
+    padding: 1rem;
+  }
+}
 p {
   margin-bottom: 1.4;
   font-size: 1, 25em;
 }
 
-h1 {
-  font-size: 2.8em;
-  margin-bottom: 3.5rem;
+* {
+  box-sizing: border-box;
 }
 
 .footer {
@@ -6170,8 +6179,24 @@ h1 {
   color: #222;
 }
 
+@media (max-width: 390px) {
+  .footer {
+    width: 90%; /* Increase width on smaller screens */
+    padding: 1rem;
+  }
+}
 p {
-  font-size: 1em;
+  margin-bottom: 1.4;
+  font-size: 1, 25em;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 3.5rem; /* baseline * 2, för att skapa mer utrymme */
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .header {
@@ -6193,6 +6218,12 @@ p {
   object-fit: cover;
 }
 
+@media (max-width: 390) {
+  .header {
+    width: 90%; /* Increase width on smaller screens */
+    padding: 1rem;
+  }
+}
 .site-header {
   display: flex;
   flex-direction: row;
@@ -6222,37 +6253,26 @@ p {
   margin-bottom: 1.4;
   font-size: 1, 25em;
 }
-p a {
-  text-decoration: none; /* Removes underline */
-  color: blue; /* Default color */
-  font-weight: bold; /* Makes the text bold */
-}
-p a:hover {
-  color: #222;
-  text-decoration: underline;
-}
 
 h1 {
   color: #222;
   font-size: 2.8em;
   margin-bottom: 3.5rem; /* baseline * 2, för att skapa mer utrymme */
 }
-h1 a {
-  text-decoration: none; /* Removes underline */
-  color: blue; /* Default color */
-  font-weight: bold; /* Makes the text bold */
-}
-h1 a:hover {
-  color: #222;
-  text-decoration: underline;
-}
 
 html {
+  font-size: 100%;
   background-color: rgba(212, 212, 196, 0.897);
   line-height: 1.15; /* 1 */
   text-size-adjust: 100%; /* 2 */
 }
 
+@media (max-width: 390px) {
+  .html {
+    width: 90%; /* Increase width on smaller screens */
+    padding: 1rem;
+  }
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
