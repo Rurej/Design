@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
   display: flex;
   background-color: rgba(216, 216, 201, 0.897);
@@ -19,6 +23,12 @@
 
   }
 
+}
+@media (max-width: 390) {
+  .header {
+    width: 90%; /* Increase width on smaller screens */
+    padding: 1rem;
+  }
 }
 
 .site-header {
@@ -49,38 +59,16 @@ nav {
 
 }
 
-p{
-    color: #222;
-    margin-bottom: 1.4;
-    font-size: 1,25em;
-
-    a {
-        text-decoration: none; /* Removes underline */
-        color: blue; /* Default color */
-        font-weight: bold; /* Makes the text bold */
-    }
-
-    a:hover{
-
-        color: #222;
-        text-decoration: underline;
-    }
+p {
+  color: #222;
+  margin-bottom: 1.4;
+  font-size: 1,25em;
 }
 
 h1 {
-    color: #222;
-    font-size: 2.8em;
-    margin-bottom: 3.5rem; /* baseline * 2, för att skapa mer utrymme */
+  color: #222;
+  font-size: 2.8em;
+  margin-bottom: 3.5rem; /* baseline * 2, för att skapa mer utrymme */
+
     
-    a {
-        text-decoration: none; /* Removes underline */
-        color: blue; /* Default color */
-        font-weight: bold; /* Makes the text bold */
-    }
-
-    a:hover{
-
-        color: #222;
-        text-decoration: underline;
-    }
 }
