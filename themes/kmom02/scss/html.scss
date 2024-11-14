@@ -1,5 +1,13 @@
 html {
+  font-size: 100%;
   background-color: rgba(212, 212, 196, 0.897);
   line-height: 1.15; /* 1 */
   text-size-adjust: 100%; /* 2 */
+}
+
+@media (max-width: 390px) {
+  .html {
+    width: 90%; /* Increase width on smaller screens */
+    padding: 1rem;
+  }
 }
