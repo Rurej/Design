@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -6,6 +10,7 @@ body {
   line-height: 1.4;
 
 }
+
 
 .main {
   width: 100%;
@@ -25,11 +30,15 @@ body {
   }
 
 }
-
-
-p{
-    margin-bottom: 1.4;
-    font-size: 1,25em;
+@media (max-width: 390px) {
+  .main {
+    width: 90%;
+    padding: 1rem;
+  }
 }
 
+p {
+  margin-bottom: 1.4;
+  font-size: 1,25em;
+}
 
